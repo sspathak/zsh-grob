@@ -6,6 +6,11 @@
 
 The standard `git rebase --onto <target> <upstream> <branch>` command is powerful but notoriously difficult to visualize. `grob` solves this by providing a step-by-step interactive workflow.
 
+## Demo 🎥
+https://github.com/user-attachments/assets/d13caf3e-5f8f-43fa-a48f-8b5303ecc74a
+
+
+
 ### The Killer Use Case: Stacked PRs
 If you work with **Stacked Pull Requests** (e.g., Branch B is based on Branch A, which is based on `main`), you often run into a situation where Branch A is updated or squashed. To move Branch B to the new version of Branch A without dragging along "ghost" commits from the old version, you *must* use `rebase --onto`.
 
